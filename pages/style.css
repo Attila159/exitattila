@@ -1,0 +1,503 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color:#BBC4C2;
+
+
+
+    
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: #29302b;
+    display: flex;
+    align-items: center; 
+    margin: 0 auto;
+    
+}
+
+.navbar .logo{
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+
+}
+.nav-menu{
+    margin: 50px auto;
+    padding: 0;
+}
+
+.nav-menu .nav-item{
+    display: inline;
+    margin: 100px;
+    font-size: 25px;
+    text-align: left;
+   
+    
+}
+
+.nav-menu .nav-item a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+    border: 4px white solid;
+    
+    
+    
+}
+
+.nav-menu .nav-item a:hover {
+    background-color: #FF4455;
+   
+}
+
+.heroimg {
+    background-image: url('../img/hero\ image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    border: 1px solid black;
+    
+    
+}
+.container{
+    display: block;
+    width: 100%;
+    margin: auto;
+    background-color: #29302b;
+}
+.container h1{
+    text-align: center;
+    font-size: 80px;   
+    font-weight: 700;
+    color: white;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+.container p{
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    max-width: 25%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    font-style: italic;
+    
+}
+
+.button a{
+    width:fit-content ;
+    
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 30px 30px;
+    border: 10px solid black;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    display: block;   
+    background-color: #29302b;
+    margin: auto;
+    margin-top: 65px;
+    
+}
+.button a:hover{
+    background-color: #FF4455;
+}
+
+
+.card-holder{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+}
+
+.card-holder .card{
+    width: 400px;
+    height: 600px;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, .2);
+    border-radius: 25px;
+    margin: 100px 50px 0px 50px;
+    background-color: #29302b;
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.card h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: auto;
+}
+.card p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 30px auto;
+}
+.card a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 4px solid white; 
+    width: 150px;
+    margin: 100px auto;
+    text-align: center;
+    display: block;
+}
+.card a:hover{
+    background-color: #FF4455;
+}
+.video-naslov{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    background: #29302b;
+    margin: 0;
+    display: flex;
+    height: 200px;
+    align-items: center; 
+    justify-content: center;
+    
+}
+
+.Exit-video {
+    width: 1000px;
+    height: 562px;
+    display: block;
+    margin:50px auto;
+    
+}
+
+.naslov2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    background: #29302b;
+    margin: 0;
+    display: flex;
+    height: 200px;
+    align-items: center; 
+    justify-content: center; 
+    
+    border: 11px splid #29302b ;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, .2);
+    
+}
+
+.container-vesti {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vesti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.vesti img {
+    width: 700px;
+    max-width: 100%;
+    height: auto;   
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.vesti .content {
+    text-align: center;
+}
+
+.vesti p {
+    font-size: 30px;
+    text-align: justify;
+    color: white;
+    border: 1px solid #29302b;
+    
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #29302b;
+    padding: 20px;
+    margin: 0px 12px;
+     
+    max-width: 700px;
+    
+}
+.footer {
+    background-color: #29302b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #FF4455;
+}
+
+.footer-social {
+    margin-top: 10px 20px;
+    font-size: 20px;
+    word-spacing: 19px;
+    text-decoration: none;
+}
+.footer-logo img{
+    width: 50px
+}
+
+
+.footer-social a{
+    color: white;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #FF4455;
+}
+
+.galeria-img {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between images as needed */
+    margin: 20px auto;
+}
+.galeria-img img{
+    width: 450px;
+    height: 253.13px;
+    border-radius: 10px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    display: block;
+    margin: auto;
+    transition: transform 0.2s ease-in-out;
+}
+.galeria-img img:hover{
+    transform: scale(1.2); 
+}
+main  {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #29302b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-form, .contact-details {
+    margin-bottom: 30px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    margin: 20px;
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+button {
+    background-color: #FF4455;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-details p {
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: #29302b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+@media screen and (max-width: 832px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menu {
+        margin: 10px auto;
+        display: flex; 
+    justify-content: center;
+    }
+
+    .nav-menu .nav-item {
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .heroimg {
+        height: 40vh;
+    }
+    .container{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .container p {
+        max-width: 100%;
+        display: block;
+       
+       
+    }
+    .container h1{
+        font-size: 50px;
+        display: block;
+    }
+
+    .button a {
+        font-size: 30px;
+        padding: 20px 20px;
+        margin-top: 18px;
+        display: block;
+    }
+
+    .card-holder {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        height: 100%;
+    }
+
+    .card-holder .card {
+        width: 80%;
+        height: 100%;
+        margin: 20px 0;
+    }
+
+    .card img {
+        height: auto;
+    }
+
+    .card h1 {
+        font-size: 30px;
+    }
+
+    .card p {
+        font-size: 16px;
+        margin: 20px auto;
+    }
+
+    .card a {
+        margin: 20px auto;
+    }
+
+    .video-naslov, .naslov2 {
+        font-size: 30px;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+
+    .Exit-video {
+        width: 100%;
+        height: 100%;
+        margin:  0 auto;
+        margin-bottom: 40px;
+        
+        
+    }
+
+    .container-vesti {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        display: flex;
+    }
+
+    .vesti img {
+        width: 100%;
+        margin: 0;
+        
+    }
+
+    .vesti p {
+        font-size: 20px;
+        padding: 10px;
+        margin: 0 auto;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links a {
+        margin: 0;
+    }
+
+    .footer-social {
+        margin-top: 10px;
+        font-size: 20px;
+        word-spacing: 15px;
+    }
+
+    .footer-logo img {
+        width: 30px;
+    }
+}
+
